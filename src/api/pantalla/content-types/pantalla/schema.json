@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pantallas",
+  "info": {
+    "singularName": "pantalla",
+    "pluralName": "pantallas",
+    "displayName": "pantalla",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "activo": {
+      "type": "boolean"
+    },
+    "fecha_activo": {
+      "type": "json"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "opciones": {
+      "type": "json"
+    }
+  }
+}

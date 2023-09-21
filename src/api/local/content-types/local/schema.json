@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locals",
+  "info": {
+    "singularName": "local",
+    "pluralName": "locals",
+    "displayName": "local",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "richtext"
+    },
+    "activo": {
+      "type": "boolean"
+    },
+    "pantallas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pantalla.pantalla"
+    }
+  }
+}
